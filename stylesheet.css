@@ -1,0 +1,139 @@
+html, body, header, section, footer, h1, h2, h3, h4, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+	background-color: #fdeed1;
+	background: url(http://www.zingerbugimages.com/backgrounds/tan_bamboo_wallpaper_tileable.jpg) top left repeat;
+	width: 900px;
+	margin: 20px auto 100px auto;
+	font-family: Palatino, Helveltica, serif;
+	color: #493e3b;
+}
+
+header {
+	text-align: center;
+	background: linear-gradient(to bottom, #493e3b, #70618c); 
+    margin: auto 150px 30px 150px;
+    box-shadow: 5px 10px 20px #220901;
+    border-radius: 50px;
+}
+
+header p {
+	color: #f1e7d8;
+	text-shadow: .5px .5px #d3b17d;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+section {
+	background: url(purple-lotus-th.png) top right no-repeat, linear-gradient(to bottom, #f2be83, #fad8bb);
+    box-shadow: 5px 10px 20px #220901;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display:none;
+}
+
+
+.contents {
+	display: none;
+}
+
+footer {
+	background: linear-gradient(to bottom, #86aba5, #4d4b3a);
+	box-shadow: 5px 10px 20px #220901;
+    border-radius: 10px;
+    padding: 5px;
+	text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-style: italic;
+    display: none;
+}
+
+footer p {
+    color: #f1e7d8;
+}
+
+a {
+	font-size: 22px;
+	color: #9ebbb7;
+	text-shadow: none;
+}
+
+a:hover { 
+  color: #f2be83;
+}
+
+.job-date {
+	font-style: italic;
+	float: right;
+	margin-right: 20px;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 52px;
+	font-weight: bold;
+	color: #f1e7d8;
+	text-shadow: 1px 1px #d3b17d;
+	padding-top: 10px;
+}
+
+h1:hover {
+	color: #333333;
+	cursor: default;
+}
+
+h2 {
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+h2:hover {
+	color: #86aba5;
+	cursor: default;
+}
+
+
+h3 {
+	font-size: 24px;
+	margin-left: 20px; 
+	margin-bottom: 10px;
+	border-bottom: 1px;
+}
+
+h4 {
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 40px; 
+	margin-bottom: 5px;
+}
+
+ul {
+	margin-left: 40px;
+	padding-bottom: 20px;
+}
+
+li:before { 
+    content: "";
+    border-color: transparent #493e3b;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
